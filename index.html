@@ -1,16 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
+
+<!-- head -->
+
 <head>
+    <!-- Google Fonts -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet"> -->
+    <!-- title -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>영어공부</title>
+    <link href="./style.css" rel="stylesheet">
+    <script src="./script.js" type="text/javascript"></script>
 </head>
+
+<!-- body start -->
+
 <body>
-    <h1 id="randomWords">
-        -
-    </h1>
-    <button onclick="mixWords();">리셋</button>
+    <center>
+        <h1 id="randomWords">
+            여기에 단어가 표시됩니다!
+        </h1>
+        <h3 id="wordMeanings">여기에 뜻이 표시됩니다!</h3>
+    </center>
+    <center>
+        <button onclick="mixWords();" class="btn">리셋</button>
+        <button onclick="wordMeanings();" class="btn">뜻 보기</button>
+        <!-- <input type="checkbox" onclick="checkboxResponse();" id="checkbox"><label>중복 제거하기</label> -->
+    </center>
 </body>
-<script src="./script.js" type="text/javascript"></script>
+
 
 </html>
