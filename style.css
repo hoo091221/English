@@ -1,9 +1,10 @@
+body {
+    -ms-overflow-style: none;
+}
 
-/* body {
-    font-family: "Do Hyeon", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  } */
+::-webkit-scrollbar {
+    display: none;
+}
 
 #randomWords {
     font-size: 7vw;
@@ -18,8 +19,15 @@
 .btn {
     font-size: 4vw;
     padding: 1em;
-    border-radius: 20px;
+    border-radius: 0.2em;
     border: none;
     color: #000;
     margin: 10px;
+}
+
+#list {
+    font-size: 3vw;
+    padding: 2vw;
+    background: #ddd;
+    border-radius: 0.3em;
 }
